@@ -1,6 +1,5 @@
-# iOS technical test
 
-This test is part of our hiring process at Aircall for [iOS Software Engineer positions](https://www.welcometothejungle.co/companies/aircall/jobs/ios-software-engineer_paris). You'll have to do it on site within 4h.
+# iOS technical test
 
 **Feel free to apply! Drop us a line with your LinkedIn/GitHub/Twitter/AnySocialProfileWhereYouAreActive at jobs@aircall.io**
 
@@ -8,7 +7,12 @@ This test is part of our hiring process at Aircall for [iOS Software Engineer po
 ## Summary
 
 The goal of this test is to make you code a small iOS app from scratch. You are free to use the libraries you need and the architecture you find the most appropriate.
-(We use the clean architecture)
+
+We favor an architecture close to clean Architecture (see links below)
+- [Clean Architecture by Uncle Bob (Bible)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Medium article](https://medium.com/@rynecheow/clean-architecture-in-swift-b2a50a49c8b4)
+
+Ex : All your architecture shouldn't be based on an external framework (RxSwift)
 
 Your app must implement the following scenario:
 
@@ -16,9 +20,10 @@ Your app must implement the following scenario:
 2. Tapping on a call will navigate to a call detail
 3. End user should be able to navigate in app without a working Internet connection (offline mode)
 4. End user should be able to archive a call from the Activity Detail page. Once archived, the call will no longer be displayed on the Activity Feed
+5. At least, 1 class unit tested
 
 
-Try to finish as many steps as you can in 4h - it's ok if you don't complete all the tasks :)
+Try to finish as many steps as you can in 8h - it's ok if you don't complete all the tasks :)
 
 Don't spend too much time on designing your app.
 
