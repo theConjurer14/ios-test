@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "771C8ADF-4672-44AB-A862-5CFC8FFBC924"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34961D5B-F1B9-4B1B-8770-ED1B364F8D72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tests iOS/CallList/CallListUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "test03_archiveCall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34961D5B-F1B9-4B1B-8770-ED1B364F8D72 - 89d8cc7028dc5f5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tests_iOS.CallListUITests.test_archiveCall() throws -&gt; ()"
+                  moduleName = "Tests iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kildos/Personal/callTest/callTest/Tests%20iOS/CallList/CallListUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "34961D5B-F1B9-4B1B-8770-ED1B364F8D72 - 89d8cc7028dc5fb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tests_iOS.CallListUITests.test_archiveCall() throws -&gt; ()"
+                  moduleName = "Tests iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kildos/Personal/callTest/callTest/Tests%20iOS/CallList/CallListUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "34961D5B-F1B9-4B1B-8770-ED1B364F8D72 - 89d8cc7028dc5fb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tests_iOS.CallListUITests.test_archiveCall() throws -&gt; ()"
+                  moduleName = "Tests iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kildos/Personal/callTest/callTest/Tests%20iOS/CallList/CallListUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "34961D5B-F1B9-4B1B-8770-ED1B364F8D72 - 89d8cc7028dc5fde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tests_iOS.CallListUITests.test_archiveCall() throws -&gt; ()"
+                  moduleName = "Tests iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kildos/Personal/callTest/callTest/Tests%20iOS/CallList/CallListUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "34961D5B-F1B9-4B1B-8770-ED1B364F8D72 - 89d8cc7028dc403d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tests_iOS.CallListUITests.test_archiveCall() throws -&gt; ()"
+                  moduleName = "Tests iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kildos/Personal/callTest/callTest/Tests%20iOS/CallList/CallListUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
