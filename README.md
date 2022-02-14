@@ -4,143 +4,30 @@
 # Aircall - iOS Technical test
 
   
-
-## Summary
-
+Hi everyone! Thank you for your time reviewing my code challenge :)
   
 
-The purpose of this test is to give you an opportunity to showcase your coding skills.
+### Stack
 
-To doing so, you will build a small Aircall iOS app from scratch.
+- I have chosen to go with SwiftUI and a little bit of Combine, to make something a little bit different than the typical UIKit frame. I've heared that you are using it at Aircall, so it helped my decision.
+- MVVM pattern, structured by Modules (views)
+- No third party libraries used, as I don't think they are needed for this project
 
-  
 
-### General rules
+I tried to make the project as structured as possible, even if some things may seem a bit 'over developed' for the small project that it actually is. I tried to build something that can be scalable if the app grows. Note that I used the endpoint "/activities/:id" because it was in the readme, but I don't find it very useful as it doesn't return any other information than the full list of calls.
 
-- You are free to use the architecture you prefer
+The most challenging aspect for me was going back to work in SwiftUI, since I don't with it on my daily basis for a long time. It would be more easy (and probably better, overall)  to go with UIKit, as I am used to work with it, but I wanted to take advantage of the challenge to catch up with SwiftUI. Also, I am quite happy with UI testing added to the app, as they cover all the needed features for the project.
 
-- You are free to use the libraries you want
+Taking into account the requirements, with more time I would implement more 'not happy' paths for testing and for the app itself. I also see the project as a perfect example where a local database would be useful, to manage 'archive' calls or offline functionality. 
 
-- You are free to use UIKit or SwiftUI
+It would be a pleasure for me to talk about the project with any of you. And once again, thank you very much for your time.
 
-- The app must compatible with iOS 13+
+For any doubt, don't hesitate to contact me at marcos.sabaris@gmail.com
+Regards
 
-  
+### Demo video
 
-### Things you need to implement
 
-1. Display a ****list of calls**** page
+https://user-images.githubusercontent.com/99516558/153788599-e4e3f0f9-a091-4c91-9043-761830936aac.mp4
 
-2. Click on call from the list will redirect to ****call details**** page
 
-3. You should be able to ****archive a call**** from List and Details page
-
-=> Archived calls will no longer be visible from ****list of calls****
-
-  
-
-### Where to focus
-
-1. We will pay attention on the architecture of your app
-
-2. The quality of your tests
-
-3. The clarity and documentation of your code
-
-4. Don't pay too much attention on design stuff, it's not a criteria for us. After all, you are a developer not a designer !
-
-  
-
-List of calls |  Call details
-
-:-------------------------:|:-------------------------:
-
-![](assets/activity_feed.png) | ![](assets/call_detail.png)
-
-  
-
-### Need help ?
-
-  
-
-Don't hesitate to ask any question regarding the test at ios@aircall.io
-
-  
-
-  
-
-## API documentation
-
-  
-
-### Routes
-
-  
-
-Here is the API address: https://aircall-job.herokuapp.com.
-
-  
-
-As you can see, it's hosted on a free Heroku server, which means that the first time you will fetch the API, it will take few seconds to answer.
-
-  
-
-- ****GET**** - https://aircall-job.herokuapp.com/activities: get calls to display in the Activity Feed
-
-- ****GET**** - https://aircall-job.herokuapp.com/activities/:id: retrieve a specific call details
-
-- ****POST**** - https://aircall-job.herokuapp.com/activities/:id: update a call. The only field updatable is `is_archived (bool)`. You'll need to send a JSON in the request body:
-
-```
-
-{
-
-is_archived: true
-
-}
-
-```
-
-- ****GET**** - https://aircall-job.herokuapp.com/reset: Reset all calls to initial state (usefull if you archived all calls).
-
-  
-
-  
-
-### Call object
-
-  
-
-- ****id**** - unique ID of call
-
-- ****created_at**** - creation date
-
-- ****direction**** - `inbound` or `outbound` call
-
-- ****from**** - caller's number
-
-- ****to**** - callee's number
-
-- ****via**** - Aircall number used for the call
-
-- ****duration**** - duration of a call (in seconds)
-
-- ****is_archived**** - call is archived or not
-
-- ****call_type**** - can be a `missed`, `answered` or `voicemail` call.
-
-  
-
-  
-
-## Submission
-
-  
-You are ready, submit a pull request on this repository and ping your point of contact at Aircall.
-
-Don't forget to include a ****README**** file with the following:
-
-- Write a brief outline of the architecture of your app.
-- Explain why you decided to use each third party libraries.
-- What was the most difficult part of the challenge ?
-- Estimate your percentage of completion and how much time you would need to finish
