@@ -23,6 +23,7 @@ Taking into account the requirements, with more time I would implement more 'not
 It would be a pleasure for me to talk about the project with any of you. And once again, thank you very much for your time.
 
 For any doubt, don't hesitate to contact me at marcos.sabaris@gmail.com
+
 Regards
 
 ### Demo video
